@@ -6,6 +6,7 @@
 
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://git.openembedded.org" />
+  <remote name="toastbucket" fetch="https://github.com/toastbucket" />
 
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
@@ -15,5 +16,6 @@
 
   <project name="poky" remote="yocto" />
   <project name="meta-raspberrypi" remote="yocto" path="meta-raspberrypi" />
+  <project name="meta-toadly" remote="toastbucket" path="meta-toadly" revision="main" />
 
 </manifest>
